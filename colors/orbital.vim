@@ -27,6 +27,24 @@ if &t_Co >= 256 || has("gui_running")
     hi Number ctermbg=NONE ctermfg=67 cterm=NONE guibg=NONE guifg=#5f87af gui=NONE
     hi Todo ctermbg=NONE ctermfg=254 cterm=bold guibg=NONE guifg=#e4e4e4 gui=bold
     hi Type ctermbg=NONE ctermfg=223 cterm=NONE guibg=NONE guifg=#ffd7af gui=NONE
+    hi! link Character Constant
+    hi! link Float Number
+    hi! link Conditional Statement
+    hi! link Repeat Statement
+    hi! link Label Statement
+    hi! link Keyword Statement
+    hi! link Exception Statement
+    hi! link Include PreProc
+    hi! link Define PreProc
+    hi! link Macro PreProc
+    hi! link PreCondit PreProc
+    hi! link StorageClass Type
+    hi! link Structure Type
+    hi! link Typedef Type
+    hi! link Tag Special
+    hi! link SpecialChar Special
+    hi! link SpecialComment Special
+    hi! link Debug Special
     hi Underlined ctermbg=235 ctermfg=137 cterm=NONE guibg=#262626 guifg=#af875f gui=NONE
     hi StatusLine ctermbg=NONE ctermfg=110 cterm=NONE guibg=NONE guifg=#87afd7 gui=NONE
     hi StatusLineNC ctermbg=NONE ctermfg=235 cterm=NONE guibg=NONE guifg=#262626 gui=NONE
@@ -122,6 +140,24 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Number ctermbg=NONE ctermfg=blue cterm=NONE
     hi Todo ctermbg=NONE ctermfg=white cterm=bold
     hi Type ctermbg=NONE ctermfg=white cterm=NONE
+    hi link Character Constant
+    hi link Float Number
+    hi link Conditional Statement
+    hi link Repeat Statement
+    hi link Label Statement
+    hi link Keyword Statement
+    hi link Exception Statement
+    hi link Include PreProc
+    hi link Define PreProc
+    hi link Macro PreProc
+    hi link PreCondit PreProc
+    hi link StorageClass Type
+    hi link Structure Type
+    hi link Typedef Type
+    hi link Tag Special
+    hi link SpecialChar Special
+    hi link SpecialComment Special
+    hi link Debug Special
     hi Underlined ctermbg=grey ctermfg=yellow cterm=NONE
     hi StatusLine ctermbg=NONE ctermfg=blue cterm=NONE
     hi StatusLineNC ctermbg=NONE ctermfg=grey cterm=NONE
